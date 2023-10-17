@@ -1,0 +1,27 @@
+.section1 {
+  background-image: url(../image/Bridge.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-image: no-repeat;
+  text-align: center;
+}
+
+.logo {
+  padding: 5px;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+
+.mi {
+  text-align: center;
+  font-size: 80px;
+  color: yellow;
+  padding: 0%;
+}
+
+.bridge {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
