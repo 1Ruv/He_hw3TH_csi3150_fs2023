@@ -25,3 +25,116 @@
   font-size: 24px;
   color: white;
 }
+
+.section2 {
+  background-image: url(../image/Rock.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-image: no-repeat;
+  height: 500px;
+}
+
+.text1 {
+  color: yellow;
+  width: 50%;
+  float: left;
+}
+
+.text1 p {
+  font-size: 65pt;
+  padding: 30px;
+  text-align: center;
+}
+
+.text2 {
+  padding-top: 65px;
+  color: yellow;
+  font-size: 24pt;
+}
+
+.text2 p {
+  padding: 10px;
+  font-size: 26;
+}
+
+button {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.section3 {
+  background-image: url(../image/section3.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  color: yellow;
+  text-align: center;
+}
+
+.box {
+  margin: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.experience {
+  padding-top: 10px;
+  font-size: 24pt;
+}
+
+.kayak {
+  background-image: url(../image/kayak.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 500px;
+  position: relative;
+}
+
+.K {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  font-size: 20pt;
+}
+
+.hike {
+  background-image: url(../image/Hiking.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 500px;
+  position: relative;
+}
+
+.H {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  font-size: 20pt;
+}
+
+.boat {
+  background-image: url(../image/Boat.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 500px;
+  position: relative;
+}
+
+.B {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  font-size: 20pt;
+}
