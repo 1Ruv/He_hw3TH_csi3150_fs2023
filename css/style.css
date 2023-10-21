@@ -48,7 +48,7 @@
 
 .text2 {
   padding-top: 65px;
-  color: yellow;
+  color: white;
   font-size: 24pt;
 }
 
@@ -62,6 +62,8 @@ button {
   padding: 10px;
   margin: 5px;
   cursor: pointer;
+  background-color: black;
+  color: yellow;
 }
 
 .section3 {
@@ -69,7 +71,7 @@ button {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 700px;
   color: yellow;
   text-align: center;
 }
@@ -137,4 +139,60 @@ button {
   left: 0;
   padding: 20px;
   font-size: 20pt;
+}
+
+.section4 {
+  background-image: url(../image/Rock.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-image: no-repeat;
+  height: 500px;
+}
+
+.text3 {
+  color: yellow;
+  width: 50%;
+  float: left;
+}
+
+.text3 p {
+  font-size: 42pt;
+  padding: 8px;
+  text-align: center;
+  color: yellowgreen;
+}
+
+.text4 {
+  padding-top: 65px;
+  color: white;
+  font-size: 24pt;
+}
+
+.text4 p {
+  padding: 10px;
+  font-size: 26;
+}
+
+.wear {
+  font-size: 22pt;
+  margin: 0%;
+  color: white;
+}
+
+.section5 {
+  background-image: url(../image/Section5.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  color: yellow;
+  text-align: center;
+}
+
+.circle {
+  display: flex;
+  justify-content: space-around;
+}
+
+.c {
 }
