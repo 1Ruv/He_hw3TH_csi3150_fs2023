@@ -184,15 +184,67 @@ button {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 700px;
+  height: 400px;
   color: yellow;
   text-align: center;
 }
 
+.filter {
+  color: white;
+  visibility: hidden;
+}
+
 .circle {
+  margin: 25px;
   display: flex;
   justify-content: space-around;
 }
 
-.c {
+.c1 {
+  background-image: url(../image/../image/black.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  border-radius: 50%;
+}
+
+.c2 {
+  background-image: url(../image/../image/black.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  border-radius: 50%;
+}
+
+.c3 {
+  background-image: url(../image/../image/black.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  border-radius: 50%;
+}
+
+.c4 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  border-radius: 50%;
+}
+
+.point {
+  color: yellow;
+  padding-top: 50px;
+  font-size: 24pt;
 }
