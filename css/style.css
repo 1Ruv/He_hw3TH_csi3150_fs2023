@@ -4,6 +4,7 @@
   background-position: center;
   background-image: no-repeat;
   text-align: center;
+  height: 450px;
 }
 
 .logo {
@@ -20,10 +21,19 @@
   padding: 0%;
 }
 
+.arrow {
+  border: solid yellow;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 10px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
 .bridge {
   text-align: center;
   font-size: 24px;
-  color: white;
+  color: yellow;
 }
 
 .section2 {
@@ -246,5 +256,28 @@ button {
 .point {
   color: yellow;
   padding-top: 50px;
+  font-size: 24pt;
+}
+
+.review {
+  background-image: url(../image/section6.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 550px;
+  color: yellow;
+  text-align: center;
+}
+
+.review img {
+  padding-top: 100px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.review p {
+  padding-left: 100px;
+  padding-right: 100px;
   font-size: 24pt;
 }
