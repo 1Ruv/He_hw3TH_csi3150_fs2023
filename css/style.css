@@ -282,15 +282,6 @@ button {
   font-size: 20pt;
 }
 
-.album {
-  background-image: url(../image/black.jpeg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 700px;
-  float: left;
-}
-
 .contact {
   background-image: url(../image/black.jpeg);
   background-size: cover;
@@ -347,3 +338,9 @@ input[type="submit"]:hover {
   width: 500px;
   align-items: center;
 }
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
